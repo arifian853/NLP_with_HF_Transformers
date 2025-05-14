@@ -1,5 +1,5 @@
-<h1 align="center"> Machine Learning Notebooks </h1>
-<p align="center"> Jupyter Notebook untuk mempelajari tentang regresi, klasifikasi dan clustering</p>
+<h1 align="center"> Natural Language Processing  with Hugging Face Transformers </h1>
+<p align="center"> Generative AI Guided Project on Cognitive Class by IBM</p>
 
 <div align="center">
 
@@ -51,6 +51,8 @@ Result :
 
 Analysis on example 2 : 
 
+The zero-shot classifier correctly identifies "pet" as the most relevant label, with a high confidence score. This shows the model's strong ability to associate descriptive context with predefined categories, even without task-specific fine-tuning or training on the input text.
+
 #### 3. Example 3 and 3.5 - Text Generator
 
 ```
@@ -71,6 +73,8 @@ Result :
 ```
 
 Analysis on example 3 : 
+
+The text generation model produces coherent and imaginative continuations of a cooking-themed prompt. It demonstrates creativity and sentence flow, although output content may vary in tone and logic. The results showcase the model's usefulness for generating casual or narrative text.
 
 ```
 unmasker = pipeline("fill-mask", "distilroberta-base")
@@ -99,6 +103,8 @@ Result :
 ```
 
 Analysis on example 3.5 : 
+
+The fill-mask pipeline accurately infers masked words based on context. The top result "stole" makes sense, supported by a high confidence score. Other predictions are also contextually appropriate, illustrating the model's nuanced understanding of sentence structure and intent.
 
 #### 4. Example 4 - Name Entity Recognition (NER)
 
@@ -135,6 +141,8 @@ Result :
 
 Analysis on example 4 : 
 
+The named entity recognizer successfully identifies personal, organizational, and location entities from the sentence. Grouped outputs are relevant and accurate, with high confidence scores, demonstrating the model’s effectiveness in real-world applications like information extraction or document tagging.
+
 #### 5. Example 5 - Question Answering
 
 ```
@@ -151,7 +159,9 @@ Result :
 {'score': 0.6314472556114197, 'start': 79, 'end': 84, 'answer': 'a cat'}
 ```
 
-Analysis on example 5 :
+Analysis on example 5 : 
+
+The question-answering model correctly extracts the most relevant phrase "a cat" from the provided context. Its confidence score is decent, and the model showcases strong capabilities in understanding natural questions and matching them with the most likely answer span.
 
 #### 6. Example 6 - Text Summarization
 
@@ -174,6 +184,8 @@ Result :
 
 Analysis on example 6 :
 
+The summarization pipeline effectively condenses the core idea of the paragraph into a shorter version. It maintains key concepts like machine learning, pattern recognition, and practical applications, reflecting the model's strength in content compression without major loss of information.
+
 #### 7. Example 7 - Translation
 
 ```
@@ -191,8 +203,10 @@ Result :
 
 Analysis on example 7 :
 
+The translation model delivers an accurate and context-aware French translation of the Indonesian sentence. It handles informal, conversational input smoothly, making it suitable for multilingual communication tasks and cross-language understanding in casual or daily scenarios.
+
 ---
 
 ### Analysis on this project
 
-...
+This project offers a practical introduction to various NLP tasks using Hugging Face pipelines. Each example is easy to follow and demonstrates real-world use cases. The variety of models shows the flexibility of transformer-based solutions in solving different types of language problems.
