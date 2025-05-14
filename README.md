@@ -8,11 +8,11 @@
 
 </div>
 
-### Name : Arifian Saputra
+## Name : Arifian Saputra
 
-### My todo : 
+## My todo : 
 
-#### 1. Example 1 - Sentiment Analysis
+### 1. Example 1 - Sentiment Analysis
 
 ```
 # TODO :
@@ -30,7 +30,7 @@ Analysis on example 1 :
 The sentiment analysis classifier accurately detects the positive tone in the given sentence. It shows a high confidence score, indicating that the model is reliable for straightforward emotional expressions, such as enthusiasm or joy, in English-language input.
 
 
-#### 2. Example 2 - Topic Classification
+### 2. Example 2 - Topic Classification
 
 ```
 # TODO :
@@ -53,7 +53,7 @@ Analysis on example 2 :
 
 The zero-shot classifier correctly identifies "pet" as the most relevant label, with a high confidence score. This shows the model's strong ability to associate descriptive context with predefined categories, even without task-specific fine-tuning or training on the input text.
 
-#### 3. Example 3 and 3.5 - Text Generator
+### 3. Example 3 and 3.5 - Text Generator
 
 ```
 # TODO :
@@ -106,7 +106,7 @@ Analysis on example 3.5 :
 
 The fill-mask pipeline accurately infers masked words based on context. The top result "stole" makes sense, supported by a high confidence score. Other predictions are also contextually appropriate, illustrating the model's nuanced understanding of sentence structure and intent.
 
-#### 4. Example 4 - Name Entity Recognition (NER)
+### 4. Example 4 - Name Entity Recognition (NER)
 
 ```
 # TODO :
@@ -143,7 +143,7 @@ Analysis on example 4 :
 
 The named entity recognizer successfully identifies personal, organizational, and location entities from the sentence. Grouped outputs are relevant and accurate, with high confidence scores, demonstrating the model’s effectiveness in real-world applications like information extraction or document tagging.
 
-#### 5. Example 5 - Question Answering
+### 5. Example 5 - Question Answering
 
 ```
 # TODO :
@@ -163,7 +163,7 @@ Analysis on example 5 :
 
 The question-answering model correctly extracts the most relevant phrase "a cat" from the provided context. Its confidence score is decent, and the model showcases strong capabilities in understanding natural questions and matching them with the most likely answer span.
 
-#### 6. Example 6 - Text Summarization
+### 6. Example 6 - Text Summarization
 
 ```
 # TODO :
@@ -186,7 +186,7 @@ Analysis on example 6 :
 
 The summarization pipeline effectively condenses the core idea of the paragraph into a shorter version. It maintains key concepts like machine learning, pattern recognition, and practical applications, reflecting the model's strength in content compression without major loss of information.
 
-#### 7. Example 7 - Translation
+### 7. Example 7 - Translation
 
 ```
 # TODO :
@@ -207,6 +207,6 @@ The translation model delivers an accurate and context-aware French translation 
 
 ---
 
-### Analysis on this project
+## Analysis on this project
 
 This project offers a practical introduction to various NLP tasks using Hugging Face pipelines. Each example is easy to follow and demonstrates real-world use cases. The variety of models shows the flexibility of transformer-based solutions in solving different types of language problems.
